@@ -1,0 +1,321 @@
+
+--- TS Hackathon 2026 Public Materials\FAQ 26.docx ---
+Q: Who can participate in the Hackathon? 
+
+A: We are open to all Undergraduate students across all schools in Singapore. Exchange students are also welcomed to sign up!
+
+Q: What are the prizes available? 
+
+A: For this Hackathon, we have a range of exciting prizes to reward participants' exceptional efforts and innovative solutions! You may refer to the infographics for the prizes. 
+
+Q: Do I need coding experience to join?
+
+A: While coding experience is beneficial, hackathons also welcome designers, project managers, and business strategists to form well-rounded teams!
+
+Q: Are there any rules on team size?
+
+A: A team must consist of 4 to 6 members.
+
+Q: How would the solutions be evaluated? 
+
+A: The evaluation starts from the initial selection of the Top 10 Teams, and progresses to the finals where the winners will be chosen. The Ellipsis team and Hackathon Judging Panel will be involved in these processes.
+
+The judging criteria and rubrics will be released together with the problem statement on Friday, 28 August 2026, at 12pm.
+
+Q: When we work on the solutions for the hackathon (code), do we need to do it in a venue with other teams?
+
+A: No, you are free to work on your solution wherever you and your team are most comfortable. We won't be providing a dedicated venue for participants.
+
+Q: Who is part of the Hackathon Judging Panel? 
+
+A: The Hackathon Judging panel consists of professors from the SCIS Faculty, as well as company representatives from DSO.
+
+These representatives hold a tech related role in the industry and have the necessary knowledge and experience to judge the submitted solutions.
+
+
+Q: Do all team members have to be present on the final pitch day?
+
+A: We understand that you may have prior commitments, so we require a minimum of 2 members to be present on the final pitch day.
+
+
+Q: Will there be networking opportunities for participants? 
+
+A: The Top 10 Teams will present their solution to the panel, and have the opportunity to network with industry professionals from DSO and our Panel of Judges.
+
+
+Q: Do my team and I have to remain present for the entire duration of the final pitch day if we are selected?
+
+A: Once chosen as one of the Top 10 Teams, we will provide your team with a presentation schedule for the final pitch day. Your team is required to be present 30 minutes prior to your designated presentation time slot and for the entire duration of the prize presentation ceremony. However, you are also welcomed to sit in and observe all the 10 pitches. There will also be refreshments provided during the session. 
+
+Q: What happens if none of our team members can present for the Pitch Day?
+
+A: The team may pre-record a Pitch video to be presented for the Pitch Day. However, do note that the presentation marks may or may not be deducted under the discretion of the judges.
+
+
+
+
+
+
+
+
+
+
+
+--- TS Hackathon 2026 Public Materials\Hackathon Code of Conduct 2026 .docx ---
+ELLIPSIS TECH SERIES 2026
+Hackathon Code of Conduct 
+All attendees, speakers, sponsors and volunteers at Ellipsis Tech Series 2026 Hackathon are required to agree with the following code of conduct. Ellipsis will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody. 
+The Ellipsis Tech Series 2026 Hackathon is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Participants violating these rules may be sanctioned or expelled from the conference without prior notice at the discretion of the Organisers. 
+Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, technology choices, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. 
+Participants asked to stop any harassing behavior are expected to comply immediately. 
+Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualised images, activities, or other material. 
+If a participant engages in harassing behavior, the Organisers may take any action they deem appropriate, including warning the offender or expulsion from the hackathon.
+If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact Ellipsis immediately. Do reach out to us at ellipsis@sa.smu.edu.sg.
+We expect participants to follow these rules at the Ellipsis Tech Series 2026 Hackathon. 
+The Ellipsis Tech Series 2026 Hackathon Code of Conduct is adapted from the Conference Code of Conduct, which is licensed under the Creative Commons Attribution 3.0 Unported License.
+
+
+--- TS Hackathon 2026 Public Materials\Hackathon Terms and Conditions 26.docx ---
+ELLIPSIS TECH SERIES 2026
+Hackathon Terms and Conditions
+
+Introduction
+
+The Ellipsis Tech Series 2026 Hackathon challenges participants to develop a Minimum Viable Product (MVP) in teams. It will span a total of 8 days from 28 August to 4 September 2026.
+The mission of the hackathon is to empower university undergraduate students to leverage their tech skills and creativity to make a positive impact on society. Participants will work in teams to design and develop an innovative and user-friendly solution that address real-world social challenges and contribute to the betterment of communities and individuals.
+In groups of 4-6, students will be required to work on their proposed solution using open-source technologies and submit their solutions to a panel consisting of distinguished representatives from SCIS and the Sponsors themselves. The top 10 teams shortlisted will advance to the final round and present their solutions to the judging panel to clinch the top prizes.
+
+Acknowledgement of Consent
+
+SMU respects the privacy of individuals and recognizes the importance of the personal data you have entrusted to us and believe that it is our responsibility to properly manage, protect, process and disclose your personal data. We are also committed to adhering to the provisions and principles of the Personal Data Protection Act 2012. As such, this Personal Data Protection Statement is to assist you in understanding how we collect, use and/or disclose your personal data.
+We will collect, use and disclose your personal data in accordance with the Personal Data Protection Act 2012 (“Act”). The Act establishes a data protection law that comprises various rules governing the collection, use, disclosure and care of personal data. It recognizes both the rights of individuals to protect their personal data, including rights of access and correction, and the needs of organisations to collect, use or disclose personal data for legitimate and reasonable purposes.
+Ellipsis retains the right to record and use photographs, videos or any other material taken during Ellipsis Tech Series 2026: Hackathon which may concern you for our marketing and publicity purposes on any electronic or printed platform. If you would like to find more about Personal Data Protection Statement, please view your Privacy Statement at http://www.smu.edu.sg/privacy-statement or contact us at ellipsis@sa.smu.edu.sg.
+By registering for the Ellipsis Tech Series 2026 Hackathon, the Participant acknowledges that Participant is fully aware of the nature of Ellipsis Tech Series 2026: Hackathon and understands that my participation involves a certain amount of risks. The Participant will cooperate fully with SMU and Ellipsis and diligently comply with all safety protocols.
+The Participant acknowledges that they will not, to the fullest extent permitted by the laws of Singapore, hold SMU, Ellipsis, or any of its authorised agents responsible for any damage to or any injury or loss of life which may be sustained by themselves during the Ellipsis Tech Series 2026: Hackathon or arising from any cause in connection with the event where such damage to or any injury or loss of life is not caused by the negligence of SMU, Ellipsis, or any of its authorised agents.
+
+Participant Eligibility
+
+To enter the Hackathon, the Participants must:
+
+be in a team consisting of four (4) to six (6) eligible individuals; 
+register between 20st August 2026, Friday to 25th August 2026, 
+               Wednesday, 12.00pm as specified in the promotional materials;
+have filled out the Hackathon Registration Form in full;
+ensure that all information provided must be complete and accurate;
+and have replied to, if any, all required correspondence from Ellipsis. 
+
+Each team is only allowed to submit one (1) registration form and each Participant may belong to only one (1) team within the Hackathon.
+
+The team name will be chosen by the individuals in the team during registration and cannot be derogatory, inflammatory, obscene or defamatory in any way. Teams are not allowed to use names connected with registered trademarks that they do not own. Failure to comply will result in disqualification. 
+
+Signups will be on a first come first serve basis and all entries will be reviewed by Ellipsis. Ellipsis has the right at their sole discretion to determine whether an entrant is eligible for the Hackathon.
+
+Upon successful registration, Participants from each team will receive a confirmation email before 28th August 2026, Thursday, 11am.
+
+
+Conduct of Hackathon
+
+Participants are to hold themselves to the standards set forth in the Code of Conduct put forth by Ellipsis.
+
+Ellipsis reserves the right to disqualify participants that do not meet the eligibility criteria in Section 3, are in violation of any of the terms and conditions set forth for the Hackathon, adversely affect other participants or the goodwill of our sponsors and partners.
+
+Ellipsis has the final say on decisions and reasons to disqualify teams and decisions are not open for appeal.
+
+Selection of the winning teams are at the sole discretion of Ellipsis and all other relevant personnel. All decisions are made after careful deliberation and are not open for appeal.
+
+Problem Statement
+
+The challenge statement will be released to participants on 28th August 2026, Friday, 12.00pm.
+
+The timing will be made known to participants in advance via the relevant communication channels. 
+
+Prior to the challenge announcement, the Telegram channel will be made available for participants to join and access.
+The Telegram channel will serve as an announcement channel.
+Participants will also be allowed to comment under each announcement 
+              should there be any queries, in which case Ellipsis personnel will help to               
+              address it.
+
+Technology
+
+Teams may use any publicly available open-source framework and technology available from the internet. 
+
+Teams may use any platform to code the solution and must use Github for submitting the source code. 
+
+Teams must also declare the code snippets they have used and ensure they have the rights to use them. 
+
+
+
+Hackathon Submission
+
+Phase 1: Proposal Submission
+
+Each team can only submit one (1) proposal by 30th August 2026, 
+              Sunday, 6pm. 
+The proposal document must be submitted in .doc or pdf format.
+
+Phase 2: Solution Submission
+
+Each team can only submit one (1) solution by 3rd September 2026, 
+              Thursday, 9pm. 
+Each team is required to submit a complete Minimum Viable Product    
+              (MVP) with its accompanying code repository, deployment packages (if   
+              necessary) and a demonstration video.  
+The MVP, Demonstration Video should be in English and should be 
+submitted before the stipulated deadlines in order to be considered.
+
+Judging
+
+The submissions will be judged by a panel of judges appointed by Ellipsis, composed of SMU professors and judges from sponsor companies. Decisions made by the judges are final and are not open for appeal.
+
+Disqualification
+
+Your submission should not:
+
+contain malicious, corrupt, damaged or offensive content;
+infringe the intellectual property rights of any third party; and
+violate any applicable law;
+
+You should not have engaged in behaviour that violates the Code of Conduct specified in Section 4.
+
+Ellipsis may disqualify, at their sole discretion, Hackathon entries (including, without limitation, content submitted in connection therewith) that:
+
+are in violation of third party rights or law or regulations; and
+use inappropriate or explicit language or images, or display content 
+that Organizers or sponsors otherwise finds objectionable.
+
+Should any of these submission requirements be violated, your team will be automatically disqualified from the Hackathon.
+
+Winners
+
+Ellipsis reserves the rights to substitute the prizes advertised for products of similar value without notice or liability. 
+
+The winners acknowledge that Ellipsis will not be held liable whatsoever on how the prizes are split up within the members of the winning team. 
+
+An email requesting the winners’ details will be sent to the winning teams within one week following the Pitch Day.
+
+An email requesting the winners’ availability to arrange a date for prize collection will be sent to the winning teams within 30 days after the Pitch Day.
+
+Prizes not collected within 30 days of the confirmation email for the arranged pick-up date will be forfeited. Ellipsis reserves the right to either award the prize to another team or retain the unclaimed prize.
+
+Should the delivery of prizes be delayed for any reason, Ellipsis will inform the winning team once it is ready for collection and the winner must collect the prize within 30 calendar days.
+
+Photo Video Waiver
+
+By participating in this event, you consent to the collection, use and disclosure by Singapore Management University (SMU) as represented by SMU Computing and Information Systems Society (Ellipsis):
+
+the photography and video recording of you (Materials) for the purposes 
+               of recording the event; and
+publication of the Materials on SMU and Ellipsis’ website, social media 
+               networking sites related to SMU as well as SMU and Ellipsis’ newsletters. 
+
+By entering the event premises, you waive the rights you may have to:
+
+any claims for royalties in connection with the publication of the Materials;  
+              and
+any right to approve any photographs and video recording taken by SMU 
+               or the person or entity designated to do so by SMU.
+
+Due to the nature of the event, Ellipsis is unable to require the relevant personnel to agree or sign non-disclosure agreements. As such, it cannot be guaranteed that non-team members will not obtain access to any of your team’s Materials.
+
+You also give Ellipsis the consent to release the photos to our Hackathon event partners for their use. 
+
+You release SMU, Ellipsis, its members, and each and all persons involved from any liability connected with the taking, recording, or publication of photographs and/or video recordings. 
+
+You have been fully informed of your consent, waiver of liability and release before entering the event. In any event, should you wish at any time to withdraw your consent for the further use and/or disclosure of the Materials, please contact us at ellipsis@sa.smu.edu.sg.
+
+
+Protection of Intellectual Property
+
+By submitting an Entry or accepting any prize, you represent and warrant that:
+
+you will not submit content that is copyrighted, protected by trade secret or otherwise subjected to third party intellectual property rights or other proprietary rights, including privacy and publicity rights, unless you are the owner of such rights or have permission from their rightful owner to post the content; and 
+the content submitted by you does not contain any viruses, Trojan horses, worms or other disabling devices or harmful code.
+
+Ellipsis does not assume any liability resulting from, if any, infringement of any intellectual property rights by the Participants.
+
+Information submitted and presented by the Participants are the responsibility of the Participants. Ellipsis will not be taking any steps to verify the adequacy, accuracy or completeness of the information presented by the Participants.
+
+The Participants are responsible for ensuring their own compliance with any and all applicable local laws in the relevant sectors.
+
+Copyright
+
+The Participant represents and warrants that: 
+
+they are the sole author and copyright owner of the Submission, and that the Submission is an original work of the Participant;
+or if the Submission is a work based on an existing application, that the Participant has acquired sufficient rights to use and to authorize others;
+and that the Submission does not infringe upon any copyright or upon any other third party rights of which the Participant is aware, and that the Submission is free of malware.
+
+Limitation of Liability
+
+Under no circumstances shall Ellipsis and the relevant personnel be liable to participants for any direct, indirect, incidental, special, punitive, or consequential damages resulting from any:
+
+errors, mistakes or inaccuracies of content;
+unauthorized access to or use of participants’ accounts and/or any and all personal information stored on the provided platforms;
+bugs, viruses, Trojan horses, or the like, which may be transmitted to or through the service by any third party; and
+errors or omissions in any content or for any loss or damage of any kind incurred as a result of the Participants’ use of any content posted, email, transmitted or otherwise made available via the service based on any legal theory and whether Ellipsis are advised of the possibility of such damages.
+
+Participants acknowledge that Ellipsis shall not be held liable for any content and, if any, defamatory, offensive or illegal conduct of any Participants or third parties and that the risk of harm or damage from the foregoing rests solely with the Participants.
+
+The aforementioned limitation of liability shall apply to the fullest extent permitted by the law of the Republic of Singapore.
+
+
+
+
+--- TS Hackathon 2026 Public Materials\Tech Series 2026 Problem Statements.docx ---
+PROBLEM STATEMENT 
+Elderly/Healthcare
+As Singapore moves toward becoming a super-aged society, the strain on caregivers, healthcare infrastructure, and community support systems keeps growing. 
+How might we help seniors age in place with dignity and independence, from fall detection and health monitoring to combating social isolation and easing the load on caregivers?
+
+Financial Literacy
+How might we create engaging financial literacy solutions that empower lower-income families, gig workers, and young adults to build savings habits, navigate government support schemes, and achieve long-term financial resilience in Singapore?
+
+Digital Literacy 
+How might we design trustworthy, easy-to-navigate digital platforms that make fact-checking and media literacy accessible, intuitive, and seamlessly woven into how Singaporeans consume news and social media every day?
+
+
+
+--- TS Hackathon 2026 Public Materials\Phase 1 Proposal Submission\Proposal Submission Template 2026.docx ---
+ELLIPSIS TECH SERIES 2026
+Proposal Submission Template
+
+General Brief
+Fill in the Team Details table with your team’s information and use this document as a template to write your team’s proposal. 
+By submitting this proposal, all participants have acknowledged the terms stated in the Terms and Conditions document and the Code of Conduct document.
+Rename the proposal submission document as “ProposalSubmission_<TeamName>”.
+Submissions that do not follow the format of this document will be disqualified. 
+The text of this document should be font “Arial”, font size 11, and line spacing of 1.5.
+Ensure you have filled up your team name and team member’s details.
+Keep this proposal to a maximum of 10 pages only excluding the cover page, content outline, appendix, and references.
+Submit your team’s proposal here by Sunday, 30th August 2026, 6pm. 
+Only one submission is necessary per team.
+
+
+Team Details
+
+Content Outline
+
+1. Solution Overview
+Define your target audience and provide a compelling rationale for selecting them.
+Identify the key challenges or pain points faced by your target audience (problem statement).
+Explain how your team’s solution directly addresses the challenges faced by your target audience.
+2. Solution Features and Implementation Strategy
+Provide a comprehensive breakdown of your solution’s features and functionality. Please highlight the most critical aspects and how they contribute to solving the identified problems.
+Detail the technical and strategic approach your team will take to develop and implement the solution. Include any tools, technologies, and methodologies that will be utilized.
+3. Solution Impact
+Explain how your solution will create a meaningful impact and contribute to long-term benefits or improvements.
+Highlight unique selling point(s) that make your solution particularly valuable to your Target Audience.
+Outline the key performance indicators (KPIs) that will be used to measure the success and impact of your solution.
+4. Solution Architecture 
+Include Architecture Diagram(s).
+5. Future Development & Scalability
+If selected, explain how your team plans to further develop and enhance the solution with additional resources.
+Discuss the scalability and viability of your solution to accommodate broader use cases.
+
+
+6. Appendix
+Include any supplementary information that supports your proposal, such as design mockups, wireframes, or user personas.
+7. References
+List all sources, or literature referenced in your proposal.
+
+

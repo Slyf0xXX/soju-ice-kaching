@@ -31,8 +31,18 @@ Welcome to the **Ellipsis Tech Series 2026 Hackathon** project base!
 - Open-source frameworks/technologies are allowed. Must declare used code snippets.
 
 ## Git Collaboration 🤝
-This directory has been initialized as a Git repository.
-To collaborate with your 4 team members:
-1. Create a GitHub repository and link it: `git remote add origin <repo_url>`
-2. Push this initial structure: `git push -u origin main`
-3. Have your 4 team members clone the repository: `git clone <repo_url>`
+Repo: https://github.com/Slyf0xXX/ts-hackathon-2026 (private)
+Team: Slyf0xXX (owner), Aloysiusjs, anijam99, jenniwiji
+
+### First-time setup for teammates
+1. Accept the GitHub collaborator invite (check email or https://github.com/Slyf0xXX/ts-hackathon-2026/invitations).
+2. Clone: `git clone https://github.com/Slyf0xXX/ts-hackathon-2026.git`
+
+### Everyday workflow
+- Default branch is `main`. Don't commit directly to `main`.
+- Start each task from an up-to-date `main`:
+  `git checkout main && git pull`
+- Create a branch: `git checkout -b <name>/<short-description>` (e.g. `jenni/fact-check-ui`)
+- Commit and push: `git push -u origin <branch>`
+- Open a Pull Request on GitHub, get one teammate to review, then merge.
+- Keep `.env` and other secrets out of git (already covered by `.gitignore`).

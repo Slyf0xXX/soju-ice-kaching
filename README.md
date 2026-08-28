@@ -1,9 +1,9 @@
-# TS Hackathon 2026 — Team Soju
+# [Team Soju] TS Hackathon 2026 
 
-Welcome to the **Ellipsis Tech Series 2026 Hackathon** project base!
+Welcome to the **Soju Factory's Ellipsis Tech Series 2026 Hackathon** project base!
 
 - **Team**: Soju
-- **Problem Statement**: #2 — Financial Literacy
+- **Problem Statement**: #2: Financial Literacy
 
 ## Important Dates 📅
 - **Phase 1 Proposal Submission**: Sunday, 30th August 2026, 6:00 PM

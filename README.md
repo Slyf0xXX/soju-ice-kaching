@@ -1,6 +1,9 @@
-# TS Hackathon 2026
+# TS Hackathon 2026 — Team Soju
 
 Welcome to the **Ellipsis Tech Series 2026 Hackathon** project base!
+
+- **Team**: Soju
+- **Problem Statement**: #2 — Financial Literacy
 
 ## Important Dates 📅
 - **Phase 1 Proposal Submission**: Sunday, 30th August 2026, 6:00 PM
@@ -8,12 +11,14 @@ Welcome to the **Ellipsis Tech Series 2026 Hackathon** project base!
 - **Pitch Day**: To be announced for Top 10 teams (minimum 2 members must be present).
 
 ## Problem Statements 🎯
+Team Soju is tackling **#2 — Financial Literacy**.
+
 1. **Elderly/Healthcare**: Help seniors age in place with dignity and independence, from fall detection and health monitoring to combating social isolation and easing the load on caregivers.
-2. **Financial Literacy**: Empower lower-income families, gig workers, and young adults to build savings habits, navigate government support schemes, and achieve long-term financial resilience in Singapore.
+2. **Financial Literacy** ✅ *(our choice)*: Empower lower-income families, gig workers, and young adults to build savings habits, navigate government support schemes, and achieve long-term financial resilience in Singapore.
 3. **Digital Literacy**: Design trustworthy, easy-to-navigate digital platforms that make fact-checking and media literacy accessible, intuitive, and seamlessly woven into how Singaporeans consume news and social media every day.
 
 ## Project Structure 📁
-- `docs/` - Store your Proposal (using the `Proposal Submission Template 2026.docx`), design mockups, and any architecture diagrams.
+- `docs/` - Proposal (`ProposalSubmission_Soju.docx`), design mockups, and any architecture diagrams.
 - `src/` - Directory for your MVP code.
 - `TS Hackathon 2026 Public Materials/` - Raw files and materials downloaded from the hackathon organizers.
 
@@ -21,7 +26,7 @@ Welcome to the **Ellipsis Tech Series 2026 Hackathon** project base!
 ### Phase 1: Proposal
 - **Deadline**: 30th August 2026, 6:00 PM
 - **Format**: `.doc` or `.pdf`
-- **Naming**: `ProposalSubmission_<TeamName>`
+- **Naming**: `ProposalSubmission_<TeamName>` → `ProposalSubmission_Soju`
 - **Formatting**: Arial, size 11, 1.5 line spacing. Max 10 pages (excluding cover page, content outline, appendix, and references).
 - Use the template located at `TS Hackathon 2026 Public Materials/Phase 1 Proposal Submission/Proposal Submission Template 2026.docx`.
 

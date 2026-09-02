@@ -31,12 +31,29 @@ import {
 
 export function App() {
   // Navigation & View Mode
-  const [activeTab, setActiveTab] = useState<string>('home');
+  // Deep-link the tab so a refresh keeps your place and a judge can jump straight to a
+  // screen. Reads ?tab= on load and keeps the URL in sync thereafter.
+  const [activeTab, setActiveTab] = useState<string>(
+    () => new URLSearchParams(window.location.search).get('tab') || 'home',
+  );
+
+  React.useEffect(() => {
+    const url = new URL(window.location.href);
+    if (activeTab === 'home') url.searchParams.delete('tab');
+    else url.searchParams.set('tab', activeTab);
+    window.history.replaceState(null, '', url);
+  }, [activeTab]);
   const [isMobileFrame, setIsMobileFrame] = useState<boolean>(true);
   const [showPurchaseCheckerModal, setShowPurchaseCheckerModal] = useState<boolean>(false);
 
   // App Core State
-  const [companionState, setCompanionState] = useState<CompanionState>('healthy');
+  // ?state= lets a judge (or a screenshot) land straight on any companion state.
+  const [companionState, setCompanionState] = useState<CompanionState>(() => {
+    const q = new URLSearchParams(window.location.search).get('state');
+    return (['healthy', 'slipping', 'melting', 'melted'] as const).includes(q as CompanionState)
+      ? (q as CompanionState)
+      : 'healthy';
+  });
   const [streakWeeks, setStreakWeeks] = useState<number>(INITIAL_USER.streakWeeks);
   const [lastCheckin, setLastCheckin] = useState<string>(INITIAL_USER.lastCheckinDate);
   const [profileCompleteness, setProfileCompleteness] = useState<number>(INITIAL_USER.profileCompleteness);
@@ -95,7 +112,7 @@ export function App() {
   const btoMilestone = milestones.find(m => m.id === 'bto-tengah') || milestones[1];
 
   return (
-    <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-start p-2 sm:p-6 text-slate-800 font-sans">
+    <div className="min-h-screen bg-kachang-shell flex flex-col items-center justify-start p-2 sm:p-6 text-slate-800 font-sans">
       {/* Top Hackathon Demo Control Bar */}
       <header className="w-full max-w-5xl mb-4 bg-slate-900/90 backdrop-blur-md border border-slate-800 rounded-2xl p-3.5 flex flex-wrap items-center justify-between gap-3 text-white text-xs shadow-xl">
         <div className="flex items-center gap-3">
@@ -111,7 +128,7 @@ export function App() {
                 Team Soju · Ellipsis 2026
               </span>
             </div>
-            <p className="text-[11px] text-slate-400">
+            <p className="text-[11px] text-slate-300">
               Singapore Financial Literacy & Support Maximiser Companion
             </p>
           </div>
@@ -119,7 +136,7 @@ export function App() {
 
         {/* Companion State Interactive Switcher for Judges */}
         <div className="flex items-center gap-1.5 bg-slate-800/80 p-1 rounded-xl border border-slate-700">
-          <span className="text-[10px] text-slate-400 font-bold px-2 uppercase tracking-wider hidden sm:inline">
+          <span className="text-[10px] text-slate-300 font-bold px-2 uppercase tracking-wider hidden sm:inline">
             Companion State:
           </span>
           {(['healthy', 'slipping', 'melting', 'melted'] as CompanionState[]).map(st => (
@@ -135,7 +152,7 @@ export function App() {
                     : st === 'melting'
                     ? 'bg-orange-500 text-white shadow-xs'
                     : 'bg-rose-500 text-white shadow-xs'
-                  : 'text-slate-400 hover:text-white hover:bg-slate-700/60'
+                  : 'text-slate-300 hover:text-white hover:bg-slate-700/60'
               }`}
             >
               {st}
@@ -147,7 +164,7 @@ export function App() {
         <div className="flex items-center gap-2">
           <button
             onClick={() => setIsMobileFrame(!isMobileFrame)}
-            className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-colors border border-slate-700"
+            className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-colors border border-slate-700"
           >
             {isMobileFrame ? (
               <>
@@ -162,7 +179,7 @@ export function App() {
           <button
             onClick={handleResetData}
             title="Reset Mock Data"
-            className="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white rounded-xl text-xs font-semibold transition-colors border border-slate-700"
+            className="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white rounded-xl text-xs font-semibold transition-colors border border-slate-700"
           >
             <RotateCcw className="w-3.5 h-3.5" />
           </button>
@@ -176,14 +193,14 @@ export function App() {
         }`}
       >
         <div
-          className={`w-full bg-[#FDFDFD] overflow-hidden flex flex-col relative ${
+          className={`w-full bg-kachang-canvas overflow-hidden flex flex-col relative ${
             isMobileFrame
               ? 'h-[852px] rounded-[50px] shadow-2xl border-[9px] border-slate-800 ring-1 ring-slate-700'
               : 'min-h-[820px] rounded-3xl shadow-xl border border-slate-200'
           }`}
         >
           {/* Mobile Status Bar (9:41, Dynamic Island, Battery) */}
-          <div className="shrink-0 h-11 px-7 flex items-center justify-between text-slate-800 text-xs font-semibold select-none pt-2 z-50 bg-[#FDFDFD]/90 backdrop-blur-xs">
+          <div className="shrink-0 h-11 px-7 flex items-center justify-between text-slate-800 text-xs font-semibold select-none pt-2 z-50 bg-kachang-canvas/90 backdrop-blur-xs">
             <span>9:41</span>
 
             {/* Dynamic Island Pill */}
@@ -292,11 +309,11 @@ export function App() {
       </main>
 
       {/* Footer info note */}
-      <footer className="mt-4 text-center text-xs text-slate-500 space-y-1">
+      <footer className="mt-4 text-center text-xs text-slate-300 space-y-1">
         <p>
           Ice Kaching · Designed for Singapore Gen Z & Young Adults (18–28) · Powered by React + Vite + Tailwind CSS
         </p>
-        <p className="text-[11px] text-slate-400">
+        <p className="text-[11px] text-slate-300">
           Seeded for Bryan Tan (24, Junior Analyst) · Tengah BTO Mar 2029 Goal · Singpass & SGFinDex Schema Ready
         </p>
       </footer>

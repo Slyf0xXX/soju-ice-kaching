@@ -41,7 +41,7 @@ export const FeedScreen: React.FC<FeedScreenProps> = ({
   };
 
   return (
-    <div className="flex flex-col h-full overflow-y-auto px-5 py-4 pb-24 space-y-4">
+    <div className="flex flex-col h-full overflow-y-auto [&>*]:shrink-0 px-5 py-4 pb-24 space-y-4">
       {/* Header */}
       <div className="space-y-1">
         <h1 className="text-2xl font-bold tracking-tight text-slate-900">

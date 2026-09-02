@@ -61,13 +61,13 @@ export const CompanionAvatar: React.FC<CompanionAvatarProps> = ({
     >
       <div className={`relative ${sizeMap[size]} flex items-center justify-center`}>
         <svg
-          viewBox="0 0 240 240"
+          viewBox="28 28 184 184"
           className="w-full h-full drop-shadow-md select-none overflow-visible"
         >
           <defs>
             {/* Gradients for Healthy State */}
             <linearGradient id="healthyPink" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#FF6B8B" />
+              <stop offset="0%" stopColor="#E4657F" />
               <stop offset="100%" stopColor="#FA4A72" />
             </linearGradient>
             <linearGradient id="healthyGreen" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -76,19 +76,19 @@ export const CompanionAvatar: React.FC<CompanionAvatarProps> = ({
             </linearGradient>
             <linearGradient id="healthyYellow" x1="0%" y1="0%" x2="100%" y2="100%">
               <stop offset="0%" stopColor="#F6E05E" />
-              <stop offset="100%" stopColor="#ECC94B" />
+              <stop offset="100%" stopColor="#DAAC5C" />
             </linearGradient>
             <linearGradient id="healthyIce" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" stopColor="#FFFFFF" />
-              <stop offset="100%" stopColor="#F0F4F8" />
+              <stop offset="0%" stopColor="#FFFCF6" />
+              <stop offset="100%" stopColor="#F5EFE4" />
             </linearGradient>
             <linearGradient id="bowlGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" stopColor="#FFFFFF" />
-              <stop offset="100%" stopColor="#E2E8F0" />
+              <stop offset="0%" stopColor="#FFFCF6" />
+              <stop offset="100%" stopColor="#E4D9C6" />
             </linearGradient>
             <linearGradient id="goldCoin" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#FBD38D" />
-              <stop offset="100%" stopColor="#D69E2E" />
+              <stop offset="0%" stopColor="#E9C88C" />
+              <stop offset="100%" stopColor="#AC7833" />
             </linearGradient>
 
             {/* Gradients for Slipping */}
@@ -157,19 +157,19 @@ export const CompanionAvatar: React.FC<CompanionAvatarProps> = ({
               <circle cx="134" cy="62" r="5.5" fill="#9B2C2C" />
               
               {/* Sweet Corn Kernels */}
-              <ellipse cx="160" cy="85" rx="5" ry="4" fill="#D69E2E" transform="rotate(15 160 85)" />
-              <ellipse cx="168" cy="95" rx="4.5" ry="3.5" fill="#ECC94B" transform="rotate(-10 168 95)" />
+              <ellipse cx="160" cy="85" rx="5" ry="4" fill="#AC7833" transform="rotate(15 160 85)" />
+              <ellipse cx="168" cy="95" rx="4.5" ry="3.5" fill="#DAAC5C" transform="rotate(-10 168 95)" />
 
               {/* Grass Jelly Cubes */}
-              <rect x="70" y="80" width="8" height="8" rx="2" fill="#2D3748" transform="rotate(20 74 84)" />
+              <rect x="70" y="80" width="8" height="8" rx="2" fill="#3E3529" transform="rotate(20 74 84)" />
               <rect x="80" y="90" width="7" height="7" rx="1.5" fill="#1A202C" transform="rotate(-10 83 93)" />
 
               {/* Face on Ice Dome */}
               {/* Cheerful Eyes */}
-              <ellipse cx="98" cy="118" rx="5" ry="6" fill="#1E293B" />
-              <circle cx="96" cy="116" r="1.5" fill="#FFFFFF" />
-              <ellipse cx="142" cy="118" rx="5" ry="6" fill="#1E293B" />
-              <circle cx="140" cy="116" r="1.5" fill="#FFFFFF" />
+              <ellipse cx="98" cy="118" rx="5" ry="6" fill="#362E24" />
+              <circle cx="96" cy="116" r="1.5" fill="#FFFCF6" />
+              <ellipse cx="142" cy="118" rx="5" ry="6" fill="#362E24" />
+              <circle cx="140" cy="116" r="1.5" fill="#FFFCF6" />
 
               {/* Rosy Cheeks */}
               <ellipse cx="88" cy="126" rx="7" ry="4.5" fill="#FF8EA3" opacity="0.85" />
@@ -178,7 +178,7 @@ export const CompanionAvatar: React.FC<CompanionAvatarProps> = ({
               {/* Sweet Smiling Mouth */}
               <path
                 d="M112 126 Q120 134 128 126"
-                stroke="#1E293B"
+                stroke="#362E24"
                 strokeWidth="3.5"
                 strokeLinecap="round"
                 fill="none"
@@ -187,7 +187,7 @@ export const CompanionAvatar: React.FC<CompanionAvatarProps> = ({
               {/* Sparkle Star */}
               <path
                 d="M175 52 L178 60 L186 63 L178 66 L175 74 L172 66 L164 63 L172 60 Z"
-                fill="#ECC94B"
+                fill="#DAAC5C"
                 className="animate-pulse-soft"
               />
             </g>
@@ -221,10 +221,10 @@ export const CompanionAvatar: React.FC<CompanionAvatarProps> = ({
               <circle cx="132" cy="74" r="5" fill="#742A2A" opacity="0.9" />
 
               {/* Face - Neutral / Curious */}
-              <ellipse cx="98" cy="122" rx="4.5" ry="5.5" fill="#334155" />
-              <circle cx="96" cy="120" r="1.2" fill="#FFFFFF" />
-              <ellipse cx="142" cy="122" rx="4.5" ry="5.5" fill="#334155" />
-              <circle cx="140" cy="120" r="1.2" fill="#FFFFFF" />
+              <ellipse cx="98" cy="122" rx="4.5" ry="5.5" fill="#453A2D" />
+              <circle cx="96" cy="120" r="1.2" fill="#FFFCF6" />
+              <ellipse cx="142" cy="122" rx="4.5" ry="5.5" fill="#453A2D" />
+              <circle cx="140" cy="120" r="1.2" fill="#FFFCF6" />
 
               {/* Cheeks - Lighter */}
               <ellipse cx="88" cy="128" rx="5" ry="3.5" fill="#FF8EA3" opacity="0.5" />
@@ -233,7 +233,7 @@ export const CompanionAvatar: React.FC<CompanionAvatarProps> = ({
               {/* Straight / Focused Mouth */}
               <path
                 d="M113 128 Q120 130 127 128"
-                stroke="#334155"
+                stroke="#453A2D"
                 strokeWidth="3"
                 strokeLinecap="round"
                 fill="none"
@@ -265,17 +265,17 @@ export const CompanionAvatar: React.FC<CompanionAvatarProps> = ({
               {/* Toppings Slumping */}
               <circle cx="114" cy="94" r="5.5" fill="#9B2C2C" />
               <circle cx="126" cy="98" r="5" fill="#742A2A" />
-              <rect x="85" y="112" width="7" height="7" rx="1.5" fill="#2D3748" transform="rotate(35 88 115)" />
+              <rect x="85" y="112" width="7" height="7" rx="1.5" fill="#3E3529" transform="rotate(35 88 115)" />
 
               {/* Face - Sad / Melting */}
               {/* Droopy sad eyes */}
-              <path d="M92 128 Q98 124 104 128" stroke="#334155" strokeWidth="3" strokeLinecap="round" fill="none" />
-              <path d="M136 128 Q142 124 148 128" stroke="#334155" strokeWidth="3" strokeLinecap="round" fill="none" />
+              <path d="M92 128 Q98 124 104 128" stroke="#453A2D" strokeWidth="3" strokeLinecap="round" fill="none" />
+              <path d="M136 128 Q142 124 148 128" stroke="#453A2D" strokeWidth="3" strokeLinecap="round" fill="none" />
 
               {/* Downturned Mouth */}
               <path
                 d="M112 136 Q120 130 128 136"
-                stroke="#334155"
+                stroke="#453A2D"
                 strokeWidth="3.5"
                 strokeLinecap="round"
                 fill="none"
@@ -289,6 +289,17 @@ export const CompanionAvatar: React.FC<CompanionAvatarProps> = ({
             </g>
           )}
 
+
+          {/* ================= BOWL (SHARED BY ALL STATES) ================= */}
+          {/* Bowl Rim & Body */}
+          <path
+            d="M48 140 C48 140, 52 188, 120 188 C188 188, 192 140, 192 140 Z"
+            fill="url(#bowlGrad)"
+            stroke="#CFC0A6"
+            strokeWidth="3.5"
+            filter="drop-shadow(0 4px 6px rgba(0,0,0,0.08))"
+          />
+
           {/* ================= STATE 4: MELTED ================= */}
           {state === 'melted' && (
             <g className="origin-bottom">
@@ -300,39 +311,29 @@ export const CompanionAvatar: React.FC<CompanionAvatarProps> = ({
               {/* Floating Toppings & Gold Coins */}
               <circle cx="85" cy="146" r="6" fill="#9B2C2C" />
               <circle cx="152" cy="148" r="5" fill="#742A2A" />
-              <rect x="98" y="144" width="8" height="8" rx="2" fill="#1E293B" transform="rotate(15 102 148)" />
+              <rect x="98" y="144" width="8" height="8" rx="2" fill="#362E24" transform="rotate(15 102 148)" />
 
               {/* Golden Coins Resting in Liquid */}
               <circle cx="135" cy="145" r="9" fill="url(#goldCoin)" stroke="#B7791F" strokeWidth="1" />
               <text x="135" y="148" fontSize="9" fontWeight="bold" fill="#744210" textAnchor="middle">S$</text>
 
               {/* Flat Sad / Blank Face on Puddle */}
-              <circle cx="106" cy="140" r="3" fill="#475569" />
-              <circle cx="130" cy="140" r="3" fill="#475569" />
-              <line x1="114" y1="144" x2="122" y2="144" stroke="#475569" strokeWidth="2.5" strokeLinecap="round" />
+              <circle cx="106" cy="140" r="3" fill="#574A39" />
+              <circle cx="130" cy="140" r="3" fill="#574A39" />
+              <line x1="114" y1="144" x2="122" y2="144" stroke="#574A39" strokeWidth="2.5" strokeLinecap="round" />
             </g>
           )}
-
-          {/* ================= BOWL (SHARED BY ALL STATES) ================= */}
-          {/* Bowl Rim & Body */}
-          <path
-            d="M48 140 C48 140, 52 188, 120 188 C188 188, 192 140, 192 140 Z"
-            fill="url(#bowlGrad)"
-            stroke="#CBD5E1"
-            strokeWidth="3.5"
-            filter="drop-shadow(0 4px 6px rgba(0,0,0,0.08))"
-          />
           {/* Bowl Foot Ring */}
           <path
             d="M95 188 L90 196 C90 198, 150 198, 150 196 L145 188 Z"
-            fill="#E2E8F0"
-            stroke="#CBD5E1"
+            fill="#E4D9C6"
+            stroke="#CFC0A6"
             strokeWidth="2"
           />
           {/* Decorative Bowl Stripe / Peranakan Motif Line */}
           <path
             d="M58 152 Q120 162 182 152"
-            stroke="#FF6B8B"
+            stroke="#E4657F"
             strokeWidth="3"
             strokeDasharray="4 3"
             fill="none"
@@ -340,12 +341,7 @@ export const CompanionAvatar: React.FC<CompanionAvatarProps> = ({
           />
         </svg>
 
-        {/* Interactive hint badge */}
-        {interactive && (
-          <span className="absolute -bottom-1 -right-1 bg-white/90 shadow-sm border border-slate-200 text-[10px] px-1.5 py-0.5 rounded-full text-slate-500 font-medium">
-            tap me
-          </span>
-        )}
+        {/* The bowl itself is the affordance -- see the hover/active scale on the wrapper. */}
       </div>
 
       {/* Optional State Label */}

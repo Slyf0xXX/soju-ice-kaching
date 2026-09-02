@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { SPENDING_REFLECTION_WEEK } from '../../data/mockData';
 import { SpendingMoment, CompanionState } from '../../types';
 import { CompanionAvatar } from '../CompanionAvatar';
 import { 
@@ -76,7 +77,7 @@ export const SpendingScreen: React.FC<SpendingScreenProps> = ({
     confetti({
       particleCount: 70,
       spread: 60,
-      colors: ['#48BB78', '#FF6B8B', '#ECC94B']
+      colors: ['#6E9670', '#E4657F', '#C08A3C']
     });
     setCheckerResult(null);
     if (onClosePurchaseChecker) onClosePurchaseChecker();
@@ -102,7 +103,7 @@ export const SpendingScreen: React.FC<SpendingScreenProps> = ({
   };
 
   return (
-    <div className="flex flex-col h-full overflow-y-auto px-5 py-4 pb-24 space-y-4">
+    <div className="flex flex-col h-full overflow-y-auto [&>*]:shrink-0 px-5 py-4 pb-24 space-y-4">
       {/* Header (Exact 1:1 Match with PDF Screen 4) */}
       <div className="space-y-1">
         <h1 className="text-2xl font-bold tracking-tight text-slate-900">Your week</h1>
@@ -152,32 +153,62 @@ export const SpendingScreen: React.FC<SpendingScreenProps> = ({
 
             {/* Reflection Quote */}
             <p className="text-xs text-slate-600 font-medium leading-relaxed bg-slate-50 p-3 rounded-2xl border border-slate-100">
-              "Six days of your BTO deposit. Nothing is broken — this is just the week you had."
+              “{SPENDING_REFLECTION_WEEK.reflectionQuote}”
             </p>
 
-            {/* Comparison Bars (Spent vs Planned) */}
-            <div className="space-y-3 pt-1">
-              {/* Spent Bar */}
-              <div className="space-y-1">
-                <div className="flex justify-between text-xs font-bold">
-                  <span className="text-slate-600">Spent</span>
-                  <span className="text-orange-600">S$542</span>
-                </div>
-                <div className="w-full h-3 bg-slate-100 rounded-full overflow-hidden">
-                  <div className="h-full bg-orange-400 rounded-full" style={{ width: '85%' }} />
-                </div>
-              </div>
+            {/*
+              One bar, not two. Two independent tracks made the reader compare lengths and
+              do the subtraction themselves; worse, their widths were hardcoded at 85% and
+              55% when the real ratio is 61%, so the picture disagreed with the numbers.
+              Here the plan fills the bar and the overage continues past it, which is the
+              shape of the sentence "you went S$212 over".
+            */}
+            <div className="pt-1">
+              {(() => {
+                const spent = SPENDING_REFLECTION_WEEK.spent;
+                const planned = SPENDING_REFLECTION_WEEK.planned;
+                const over = Math.max(0, spent - planned);
+                const scale = Math.max(spent, planned);
+                const plannedPct = (Math.min(planned, spent) / scale) * 100;
+                const overPct = (over / scale) * 100;
 
-              {/* Planned Bar */}
-              <div className="space-y-1">
-                <div className="flex justify-between text-xs font-bold">
-                  <span className="text-slate-600">Planned</span>
-                  <span className="text-emerald-600">S$330</span>
-                </div>
-                <div className="w-full h-3 bg-slate-100 rounded-full overflow-hidden">
-                  <div className="h-full bg-emerald-400 rounded-full" style={{ width: '55%' }} />
-                </div>
-              </div>
+                return (
+                  <>
+                    <div className="flex items-baseline justify-between text-xs font-bold">
+                      <span className="text-slate-600">
+                        Spent <span className="tnum text-slate-900">S${spent}</span>
+                      </span>
+                      <span className="tnum text-orange-600">S${over} over plan</span>
+                    </div>
+
+                    <div
+                      className="mt-1.5 flex h-3.5 w-full overflow-hidden rounded-full bg-slate-100"
+                      role="img"
+                      aria-label={`Spent S$${spent} against a plan of S$${planned}, S$${over} over.`}
+                    >
+                      <div
+                        className="h-full bg-emerald-400"
+                        style={{ width: `${plannedPct}%` }}
+                      />
+                      <div
+                        className="h-full bg-orange-400"
+                        style={{ width: `${overPct}%` }}
+                      />
+                    </div>
+
+                    <div className="mt-2 flex items-center gap-4 text-[11px] font-semibold text-slate-500">
+                      <span className="flex items-center gap-1.5">
+                        <span className="h-2 w-2 rounded-full bg-emerald-400" />
+                        Planned <span className="tnum text-slate-700">S${planned}</span>
+                      </span>
+                      <span className="flex items-center gap-1.5">
+                        <span className="h-2 w-2 rounded-full bg-orange-400" />
+                        Over
+                      </span>
+                    </div>
+                  </>
+                );
+              })()}
             </div>
           </div>
 

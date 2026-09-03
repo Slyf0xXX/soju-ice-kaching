@@ -1,4 +1,4 @@
-# 🍧 Ice Kaching  Singapore Financial Literacy & Support Maximiser
+# 🍧 Ice Kaching 🤑 | Singapore Financial Literacy & Support Maximiser
 
 > **Ellipsis Tech Series 2026 Hackathon Proposal & Prototype**  
 > **Team:** Soju (SMU School of Computing and Information Systems)  

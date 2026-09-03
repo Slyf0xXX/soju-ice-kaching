@@ -16,7 +16,7 @@ Use this today so the team can look at it. Drag-and-drop, nothing to configure.
 
 1. **Build it.**
    ```bash
-   cd ice-kaching-gemini
+   cd ice-kaching
    npm install
    npm run build
    ```
@@ -56,10 +56,10 @@ cd ts-hackathon-2026
 git checkout -b ice-kaching-ui
 
 # copy the app in, replacing the old version
-rm -rf ice-kaching-gemini
-cp -r "/c/Users/aloy/Builds n Apps/ice-kaching-gemini" ./ice-kaching-gemini
+rm -rf ice-kaching
+cp -r "/c/Users/aloy/Builds n Apps/ice-kaching-gemini" ./ice-kaching
 
-git add ice-kaching-gemini
+git add ice-kaching
 git commit -m "Ice Kaching: UI/UX pass and warm palette"
 git push -u origin ice-kaching-ui
 ```
@@ -80,7 +80,7 @@ git push -u origin ice-kaching-ui
    | Framework preset | `Vite` |
    | Build command | `npm run build` |
    | Build output directory | `dist` |
-   | **Root directory** | **`ice-kaching-gemini`** |
+   | **Root directory** | **`ice-kaching`** |
 
 3. **Save and Deploy.** First build takes a couple of minutes; later ones are quicker.
 

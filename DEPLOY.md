@@ -1,8 +1,16 @@
 # Deploying Ice Kaching
 
-The app is a static site — no backend, no database, no API keys, no environment
-variables. `npm run build` produces a `dist/` folder of plain files, and any static host
-will serve it. That makes this genuinely easy; most of the steps below are account setup.
+The app is a static site — no backend, no database. `npm run build` produces a `dist/`
+folder of plain files, and any static host will serve it. That makes this genuinely easy;
+most of the steps below are account setup.
+
+One exception: the "Talk to Ice Kaching" chat calls the OpenRouter API directly from the
+browser, using a `VITE_OPENROUTER_API_KEY` baked in at build time (see the README's Setup
+section). Every other screen works fine without it — set it before building only if you
+want that one chat to give real answers instead of its "could not connect" fallback. Note
+that Vite inlines `VITE_`-prefixed variables into the shipped JS bundle, so whatever key
+you build with is visible to anyone who opens dev tools on the deployed site. Fine for a
+free-tier hackathon key; not a place to put a production secret.
 
 **Recommended host: Cloudflare Pages.** Free, unlimited bandwidth, and no commercial-use
 restriction. The alternatives are fine too — see *Other hosts* at the bottom for the
@@ -68,7 +76,11 @@ The app lives at the repo root now — there's no subfolder to `cd` into.
    | Build output directory | `dist` |
    | Root directory | `/` (default) |
 
-3. **Save and Deploy.** First build takes a couple of minutes; later ones are quicker.
+3. **Add the environment variable** (optional — skip if you don't need the live chat): under
+   **Settings → Environment variables**, add `VITE_OPENROUTER_API_KEY` with your OpenRouter
+   key, for both Production and Preview.
+
+4. **Save and Deploy.** First build takes a couple of minutes; later ones are quicker.
 
 Every push to that branch now redeploys. Pull requests get their own preview URL, so you
 can review a change on a real phone before it reaches the main link.

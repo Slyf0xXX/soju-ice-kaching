@@ -1,9 +1,9 @@
-# TS Hackathon 2026 — Team Soju
+# [Team Soju] TS Hackathon 2026 
 
-Welcome to the **Ellipsis Tech Series 2026 Hackathon** project base!
+Welcome to the **Soju Factory's Ellipsis Tech Series 2026 Hackathon** project base!
 
 - **Team**: Soju
-- **Problem Statement**: #2 — Financial Literacy
+- **Problem Statement**: #2: Financial Literacy
 
 ## Important Dates 📅
 - **Phase 1 Proposal Submission**: Sunday, 30th August 2026, 6:00 PM
@@ -11,7 +11,7 @@ Welcome to the **Ellipsis Tech Series 2026 Hackathon** project base!
 - **Pitch Day**: To be announced for Top 10 teams (minimum 2 members must be present).
 
 ## Problem Statements 🎯
-Team Soju is tackling **#2 — Financial Literacy**.
+Team Soju is tackling **#2: Financial Literacy**.
 
 1. **Elderly/Healthcare**: Help seniors age in place with dignity and independence, from fall detection and health monitoring to combating social isolation and easing the load on caregivers.
 2. **Financial Literacy** ✅ *(our choice)*: Empower lower-income families, gig workers, and young adults to build savings habits, navigate government support schemes, and achieve long-term financial resilience in Singapore.
@@ -19,7 +19,7 @@ Team Soju is tackling **#2 — Financial Literacy**.
 
 ## Project Structure 📁
 - `docs/` - Proposal (`ProposalSubmission_Soju.docx`), design mockups, and any architecture diagrams.
-- `src/` - Directory for your MVP code.
+- `src/` - Directory for our MVP code.
 - `TS Hackathon 2026 Public Materials/` - Raw files and materials downloaded from the hackathon organizers.
 
 ## Submission Guidelines 📝

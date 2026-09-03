@@ -61,7 +61,7 @@ export const JourneyScreen: React.FC<JourneyScreenProps> = ({
   const progressPercent = Math.min(100, Math.round((currentSaved / totalTarget) * 100));
 
   return (
-    <div className="flex flex-col h-full overflow-y-auto [&>*]:shrink-0 px-5 py-4 pb-24 space-y-5">
+    <div className="flex flex-col h-full overflow-y-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden [&>*]:shrink-0 px-5 py-4 pb-24 space-y-5">
       {/* Header */}
       <div className="mb-2">
         <h1 className="text-2xl font-bold tracking-tight text-slate-900">Your journey</h1>
@@ -76,7 +76,7 @@ export const JourneyScreen: React.FC<JourneyScreenProps> = ({
         />
 
         {/* Scrollable Map Area */}
-        <div className="relative w-full h-full flex flex-col py-4 overflow-y-auto [&::-webkit-scrollbar]:hidden">
+        <div className="relative w-full h-full flex flex-col py-4 overflow-y-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
           {localMilestones.map((m, i) => {
             const Icon = MILESTONE_ICONS[m.icon] ?? Home;
             const isLast = i === localMilestones.length - 1;
@@ -283,7 +283,7 @@ export const JourneyScreen: React.FC<JourneyScreenProps> = ({
       {/* Milestone Details & Configuration Modal */}
       {selectedMilestone && (
         <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-xs flex items-end sm:items-center justify-center p-0 sm:p-4 animate-fade-in">
-          <div className="bg-white w-full max-w-md rounded-t-3xl sm:rounded-3xl p-6 space-y-4 max-h-[85vh] overflow-y-auto">
+          <div className="bg-white w-full max-w-md rounded-t-3xl sm:rounded-3xl p-6 space-y-4 max-h-[85vh] overflow-y-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
             <div className="flex items-center justify-between border-b border-slate-100 pb-3">
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 rounded-xl bg-pink-100 text-pink-600 flex items-center justify-center">

@@ -16,7 +16,6 @@ Use this today so the team can look at it. Drag-and-drop, nothing to configure.
 
 1. **Build it.**
    ```bash
-   cd ice-kaching
    npm install
    npm run build
    ```
@@ -45,42 +44,29 @@ mobile app in a phone frame.
 
 Once this is set up, `git push` publishes. No more manual uploads.
 
-### 1. Get the code into the repo
-
-The working copy currently sits outside the Git clone, so move it in first.
+### 1. Get the code
 
 ```bash
-# somewhere sensible, e.g. your Desktop
-git clone https://github.com/Slyf0xXX/ts-hackathon-2026.git
-cd ts-hackathon-2026
-git checkout -b ice-kaching-ui
-
-# copy the app in, replacing the old version
-rm -rf ice-kaching
-cp -r "/c/Users/aloy/Builds n Apps/ice-kaching-gemini" ./ice-kaching
-
-git add ice-kaching
-git commit -m "Ice Kaching: UI/UX pass and warm palette"
-git push -u origin ice-kaching-ui
+git clone https://github.com/Slyf0xXX/soju-ice-kaching.git
+cd soju-ice-kaching
 ```
 
-`node_modules/` and `dist/` are ignored by `.gitignore`, so only source gets committed.
+The app lives at the repo root now — there's no subfolder to `cd` into.
 
 ### 2. Connect Cloudflare Pages to the repo
 
 1. **Workers & Pages → Create → Pages → Connect to Git**, and authorise GitHub. When it
-   asks which repositories, you can grant access to just `ts-hackathon-2026`.
+   asks which repositories, you can grant access to just `soju-ice-kaching`.
 
-2. Pick the repo, then set **exactly** these — the root directory is the part people miss,
-   because the app lives in a subfolder:
+2. Pick the repo, then set **exactly** these:
 
    | Setting | Value |
    |---|---|
-   | Production branch | `ice-kaching-ui` |
+   | Production branch | `main` |
    | Framework preset | `Vite` |
    | Build command | `npm run build` |
    | Build output directory | `dist` |
-   | **Root directory** | **`ice-kaching`** |
+   | Root directory | `/` (default) |
 
 3. **Save and Deploy.** First build takes a couple of minutes; later ones are quicker.
 
@@ -128,7 +114,7 @@ All three are free and all three will work. The differences only matter at the e
   consultant. For a hackathon with prize money that's a question worth not having.
 - **GitHub Pages** — free and fine, but a project site is served from
   `username.github.io/repo-name/`, and this build uses absolute asset paths (`/assets/…`).
-  You would need to set `base: '/ts-hackathon-2026/'` in `vite.config.ts` and rebuild, or
+  You would need to set `base: '/soju-ice-kaching/'` in `vite.config.ts` and rebuild, or
   every stylesheet and script 404s. Only worth it if you specifically want Pages.
 
 ---

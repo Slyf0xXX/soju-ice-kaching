@@ -134,6 +134,12 @@ All features and UI designs are built faithfully based on the proposal mockups i
 
 ## 🚀 Setup and Running Instructions
 
+### Option A: We host for you!
+Open the app on our live hosted website: https://icekaching.kairo.sg/
+
+
+## Option B: You host yourself!
+
 ### Prerequisites
 - **Node.js**: Version 18.0.0 or later (Node v24+ recommended)
 - **npm**: Version 9.0.0 or later
